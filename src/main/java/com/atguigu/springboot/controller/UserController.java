@@ -17,6 +17,9 @@ public class UserController {
     public User getUser(@PathVariable("id") Integer id){
         User user = userRepository.findById(id).get();
         System.out.println("testbranch11112");
+
+        System.out.println("testbranch");
+
         return user;
 
     }
